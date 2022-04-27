@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Likes</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Libre+Bodoni&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <!-- Navigation Bar -->
+        <nav id="container-nav">
+            <h1>Network</h1>
+        </nav>
+
+        <!-- Heading -->
+        <header id="container-header">
+            <h1>Your Feed</h1>
+        </header>
+
+        <!-- Main Content -->
+        <!-- prettier-ignore -->
+        <main id="container">
+            <!-- sidebar -->
+            <div id="sidebar">
+                <img src="images/user.png" alt="user">
+                <a href="#">Add an avatar</a>
+                <h2>James Doe</h2>
+            </div>
+            <!-- USER ONE -->
+            <!-- prettier-ignore -->
+            <div id="box-one">
+                <div id="user-one">
+                    <h1>Neil M</h1>
+                    <h2 id="count">9 like(s)</h2>
+                    <button class="likes-button" onclick="add1()">Like</button>
+                </div>
+                <div id="description">
+                    <h3>I just set up this new discord bot, let me <br>
+                    know what you all think. <a href="#">link</a></h3>
+                </div>
+            </div>
+        </main>
+
+        <!-- USER TWO -->
+        <main id="container2">
+            <div id="box-two">
+                <div id="user-one">
+                    <h1>Nichole K</h1>
+                    <h2 id="count">12 like(s)</h2>
+                    <button class="likes-button" onclick="add1()">Like</button>
+                </div>
+                <div id="description">
+                    <h3>
+                        Just finished my <a href="#">next comic</a>, check it
+                        out.
+                    </h3>
+                </div>
+            </div>
+        </main>
+
+        <!-- USER Three -->
+        <main id="container2">
+            <div id="box-two">
+                <div id="user-one">
+                    <h1>Jim R</h1>
+                    <h2 id="count">9 like(s)</h2>
+                    <button class="likes-button" onclick="add1()">Like</button>
+                </div>
+                <div id="description">
+                    <h3>
+                        I can't stop listening to the <a href="#">new album</a>.
+                        <br />
+                        Who else is liking it?
+                    </h3>
+                </div>
+            </div>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
